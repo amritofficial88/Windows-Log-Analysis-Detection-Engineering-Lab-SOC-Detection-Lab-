@@ -1,8 +1,8 @@
-# SOC Detection Lab 🛡️
+# SOC Detection Lab
 
 This repo contains hands-on blue team projects focused on building detections, analyzing Windows logs, and simulating adversary techniques using Splunk, Sigma, and MITRE ATT&CK.
 
-## 🔍 Detection Use Cases
+## Detection Use Cases
 
 | Detection Name                  | Tool     | Log Type               | MITRE Technique     |
 |--------------------------------|----------|------------------------|---------------------|
@@ -18,24 +18,21 @@ This repo contains hands-on blue team projects focused on building detections, a
 - `screenshots/` → Visuals from successful detections
 - `playbooks/` → Markdown guides for detection and validation
 
-## 📚 Tools Used
+## Tools Used
 
 - Splunk Enterprise (Free)
 - Sigma (with sigmac converter)
 - MITRE ATT&CK Navigator
 - EVTX Sample Logs (from public GitHub repos)
 
-## 🧠 What I Learned
+## What I Learned
 
 - How to detect real-world TTPs from public log data
 - How to convert threat intel into detections
 - How to tune false positives and write meaningful alerts
 
-## 🔗 Sample Log Sources
+## Sample Log Sources
 
 - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
 - [Hayabusa Sample EVTX](https://github.com/Yamato-Security/hayabusa-sample-evtx)
 
-
-
-#splunk #mitre-att&ck #bluetream #detection #soc #evtx #sigma #windows-logs #cybersecurity
