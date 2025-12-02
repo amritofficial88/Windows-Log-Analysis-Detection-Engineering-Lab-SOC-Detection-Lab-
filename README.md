@@ -10,7 +10,7 @@ This repo contains hands-on blue team projects focused on building detections, a
 | Multiple Failed Logins (4625)  | Splunk   | Security.evtx          | T1110.001           |
 | Encoded PowerShell Command     | Sigma    | Sysmon + EVTX          | T1059, T1140        |
 
-## 📂 Contents
+## Contents
 
 - `detections/` → SPL and Sigma rules
 - `logs/` → Sample `.evtx` logs from public data sets
