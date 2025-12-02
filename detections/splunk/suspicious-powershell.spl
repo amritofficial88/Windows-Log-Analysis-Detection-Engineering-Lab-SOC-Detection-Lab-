@@ -1,0 +1,5 @@
+index=windows_logs sourcetype="WinEventLog:Security"
+(EventCode=4104 OR EventCode=4688)
+CommandLine="*powershell*" AND (CommandLine="*EncodedCommand*" OR CommandLine="*-nop*" OR CommandLine="*-w hidden*")
+| table _time, host, user, parent_process, CommandLine
+
