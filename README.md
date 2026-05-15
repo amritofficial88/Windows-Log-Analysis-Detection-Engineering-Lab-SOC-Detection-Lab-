@@ -1,6 +1,6 @@
 # SOC Detection Lab
 
-This repo contains hands-on blue team projects focused on building detections, analyzing Windows logs, and simulating adversary techniques using Splunk, Sigma, and MITRE ATT&CK.
+This repo contains hands-on blue team project focused on building detections, analyzing Windows logs, and simulating adversary techniques using Splunk, Sigma, and MITRE ATT&CK.
 
 ## Detection Use Cases
 
